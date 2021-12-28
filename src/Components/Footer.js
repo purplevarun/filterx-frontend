@@ -10,24 +10,34 @@ const Footer = () => {
 			</div>
 			<br />
 			<p>
-				<button className="btn">
-					<Image src="icons8-facebook-64.png" width={35} />
-				</button>
+				<a href="https://www.facebook.com/profile.php?id=100076276040227">
+					<button className="btn btn-lg">
+						<Image src="icons8-facebook-64.png" width={35} />
+					</button>
+				</a>
 
-				<button className="btn">
-					<Image src="icons8-whatsapp-64.png" width={35} />
-				</button>
+				<a href="https://youtube.com/channel/UC4itTh8nf6U1o7UmR8VMToA">
+					<button className="btn btn-lg">
+						<Image src="icons8-youtube-64.png" width={35} />
+					</button>
+				</a>
 
-				<button className="btn">
-					<Image src="icons8-instagram-48.png" width={45} />
-				</button>
+				<a href="https://twitter.com/Contactfilterx?t=JtBBZdMEm8bC0H6vN6cFeg&s=09">
+					<button className="btn btn-lg">
+						<Image src="icons8-twitter-64.png" width={35} />
+					</button>
+				</a>
 
-				<button className="btn">
-					<Image src="icons8-gmail-64.png" width={35} />
-				</button>
-
-				<button className="btn">
-					<Image src="icons8-twitter-64.png" width={35} />
+				<a href="https://www.linkedin.com/in/filter-x-b89166229">
+					<button className="btn btn-lg">
+						<Image src="icons8-linkedin-64.png" width={35} />
+					</button>
+				</a>
+			</p>
+			<p>
+				<button className="btn" style={{ color: 'white' }}>
+					Download our app from the Google Playstore
+					<Image src="icons8-google-play-240.png" width={35} />
 				</button>
 			</p>
 		</div>
