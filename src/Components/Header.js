@@ -17,7 +17,7 @@ const Header = () => {
 					}}
 				>
 					<div>
-						<button className="btn">
+						<button style={{ background: 'none', border: 'none' }}>
 							<Navbar.Brand onClick={() => navigate('/')}>
 								<Image src="./logo-filterx.jpeg" width={200} />
 							</Navbar.Brand>
@@ -30,35 +30,33 @@ const Header = () => {
 								className="me-auto"
 								style={{ marginLeft: 'auto' }}
 							>
-								<button className="btn btn-lg">
-									<Nav.Link
-										onClick={() => navigate('/services')}
-									>
-										Services
-									</Nav.Link>
-								</button>
+								<Nav.Link
+									style={{ fontSize: '20px' }}
+									onClick={() => navigate('/services')}
+								>
+									Services
+								</Nav.Link>
 
-								<button className="btn btn-lg">
-									<Nav.Link onClick={() => navigate('/blog')}>
-										Blog
-									</Nav.Link>
-								</button>
+								<Nav.Link
+									style={{ fontSize: '20px' }}
+									onClick={() => navigate('/blog')}
+								>
+									Blog
+								</Nav.Link>
 
-								<button className="btn btn-lg">
-									<Nav.Link
-										onClick={() => navigate('/about-us')}
-									>
-										About Us
-									</Nav.Link>
-								</button>
+								<Nav.Link
+									style={{ fontSize: '20px' }}
+									onClick={() => navigate('/about-us')}
+								>
+									About Us
+								</Nav.Link>
 
-								<button className="btn btn-lg">
-									<Nav.Link
-										onClick={() => navigate('/contact-us')}
-									>
-										Contact Us
-									</Nav.Link>
-								</button>
+								<Nav.Link
+									style={{ fontSize: '20px' }}
+									onClick={() => navigate('/contact-us')}
+								>
+									Contact Us
+								</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</div>
