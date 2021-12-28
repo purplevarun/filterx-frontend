@@ -32,16 +32,15 @@ const Header = () => {
 							>
 								<Nav.Link
 									style={{ fontSize: '20px' }}
+									onClick={() => navigate('/')}
+								>
+									Home
+								</Nav.Link>
+								<Nav.Link
+									style={{ fontSize: '20px' }}
 									onClick={() => navigate('/services')}
 								>
 									Services
-								</Nav.Link>
-
-								<Nav.Link
-									style={{ fontSize: '20px' }}
-									onClick={() => navigate('/blog')}
-								>
-									Blog
 								</Nav.Link>
 
 								<Nav.Link

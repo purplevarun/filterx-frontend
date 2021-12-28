@@ -67,6 +67,13 @@ const Footer = () => {
 					<Image src="icons8-google-play-240.png" width={35} />
 				</button>
 			</p>
+			<div>
+				+91 7679837582
+				<br />
+				Vidhyawati Bhawan, Aradanga, Asansol - 713303.
+				<br />
+				West Bengal, India.
+			</div>
 		</div>
 	);
 };
