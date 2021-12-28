@@ -2,9 +2,8 @@
 	min-height: 80vh;
 	/* padding: 20px; */
 }
-#myvid {
+.myvid {
 	width: 100%;
-	height: 80vh;
 }
 
 .content {
