@@ -1,39 +1,48 @@
 import React from 'react';
 import './Services.css';
+import { Image } from 'react-bootstrap';
 const Services = () => {
 	return (
 		<div className="services">
 			<div>
-				<h2>A dialogue on Environment</h2>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum
-				</p>
+				<Image src="serv.png" width={'60%'} />
 			</div>
 			<div>
-				<h2>Process of our work with customers</h2>
+				<br />
+				<h1>Process of our work with customers</h1>
 				<div
 					style={{
 						display: 'flex',
 						justifyContent: 'center',
 						flexDirection: 'column',
+						fontSize: '25px',
 					}}
 				>
-					<li>Download Application</li>
-					<li>Sign Up</li>
-					<li>Complete your profile</li>
-					<li>Get --</li>
-					<li>Collect Butts</li>
-					<li>Apply for pickup</li>
-					<li>Get paid</li>
+					<p>Download our Application from PlayStore</p>
+					<p>
+						<Image src="icons8-down-arrow-64.png" />
+					</p>
+					<p>Sign Up / Sign In</p>
+					<p>
+						<Image src="icons8-down-arrow-64.png" />
+					</p>
+					<p>Complete our profile</p>
+					<p>
+						<Image src="icons8-down-arrow-64.png" />
+					</p>
+					<p>Get VBins</p>
+					<p>
+						<Image src="icons8-down-arrow-64.png" />
+					</p>
+					<p>Collect Butts</p>
+					<p>
+						<Image src="icons8-down-arrow-64.png" />
+					</p>
+					<p>Auto Pickup / Appeal for Pickup</p>
+					<p>
+						<Image src="icons8-down-arrow-64.png" />
+					</p>
+					<p>Get Paid</p>
 				</div>
 			</div>
 		</div>

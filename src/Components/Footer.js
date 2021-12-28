@@ -7,10 +7,11 @@ const Footer = () => {
 			<div>
 				<Image src="icons8-copyright-40.png" width={25} /> 2021 &nbsp;
 				<strong>www.filterx.live</strong>
-				<p>
+				<br />
+				<sm>
 					A unit of Kushwaha Cybertech Pvt. Ltd. (CIN NO.
 					U72900WB2018PTC229234){' '}
-				</p>
+				</sm>
 			</div>
 			<br />
 			<p>
