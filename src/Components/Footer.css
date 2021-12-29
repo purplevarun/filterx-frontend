@@ -11,7 +11,8 @@
 	text-align: center;
 }
 .credit {
-	color: rgb(27, 27, 27);
+	color: rgb(65, 64, 64);
 	/* position: absolute; */
 	text-align: right;
+	margin-right: 10px;
 }
