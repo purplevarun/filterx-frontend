@@ -59,7 +59,7 @@ const Footer = () => {
 					className="btn "
 					onClick={() =>
 						(window.location.href =
-							'https://www.linkedin.com/in/filter-x-b89166229')
+							'https://www.instagram.com/p/CYDhbjULG0w/')
 					}
 				>
 					<Image src="icons8-instagram-96.png" width={40} />
@@ -83,6 +83,15 @@ const Footer = () => {
 				Vidhyawati Bhawan, Aradanga, Asansol - 713303.
 				<br />
 				West Bengal, India.
+			</div>
+			<div
+				className="credit"
+				onClick={() =>
+					(window.location.href =
+						'https://www.linkedin.com/in/purplevarun/')
+				}
+			>
+				Made by Varun Kedia
 			</div>
 		</div>
 	);

@@ -10,3 +10,8 @@
 	width: 100%;
 	text-align: center;
 }
+.credit {
+	color: rgb(27, 27, 27);
+	/* position: absolute; */
+	text-align: right;
+}
