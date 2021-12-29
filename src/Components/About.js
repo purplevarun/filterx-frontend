@@ -9,9 +9,9 @@ const About = () => {
 				get fees for the services.
 			</p>
 			<div style={{ width: '100%', height: '4vh' }} />
-			<h1>Core Team Members</h1>
+			{/* <h1>Core Team Members</h1>
 			<p style={{ fontSize: '20px' }}>Reeshab Kushwaha (CFO)</p>
-			<p style={{ fontSize: '20px' }}>Bikash Mahato (CEO)</p>
+			<p style={{ fontSize: '20px' }}>Bikash Mahato (CEO)</p> */}
 
 			<div style={{ width: '100%', height: '4vh' }} />
 			<p style={{ fontSize: '25px' }}>

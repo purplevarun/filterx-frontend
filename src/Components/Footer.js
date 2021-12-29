@@ -6,7 +6,7 @@ const Footer = () => {
 		<div className="Footer">
 			<div>
 				<Image src="icons8-copyright-40.png" width={25} /> 2021 &nbsp;
-				<strong>www.filterx.live</strong>
+				<strong>FilterX</strong>
 				<br />
 				<sm>
 					A unit of Kushwaha Cybertech Pvt. Ltd. (CIN NO.
@@ -53,6 +53,16 @@ const Footer = () => {
 					}
 				>
 					<Image src="icons8-linkedin-64.png" width={35} />
+				</button>
+
+				<button
+					className="btn "
+					onClick={() =>
+						(window.location.href =
+							'https://www.linkedin.com/in/filter-x-b89166229')
+					}
+				>
+					<Image src="icons8-instagram-96.png" width={40} />
 				</button>
 			</p>
 			<p>
