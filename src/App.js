@@ -9,7 +9,11 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Blog from './Components/Blog';
 import Contact from './Components/Contact';
+import { useEffect } from 'react';
 function App() {
+	useEffect(() => {
+		document.title = 'FilterX';
+	});
 	return (
 		<>
 			<BrowserRouter>
