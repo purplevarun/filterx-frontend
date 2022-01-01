@@ -1,7 +1,15 @@
-import React from 'react';
-import './Common.css';
-import { Image } from 'react-bootstrap';
+import React from "react";
+import "./Common.css";
+import { Image } from "react-bootstrap";
 const Home = () => {
+	function download(url) {
+		const a = document.createElement("a");
+		a.href = url;
+		a.download = url.split("/").pop();
+		document.body.appendChild(a);
+		a.click();
+		document.body.removeChild(a);
+	}
 	return (
 		<div className="HomeBody">
 			<div className="content">
@@ -10,7 +18,7 @@ const Home = () => {
 					environment by recycling cigarette butts.
 				</strong>
 
-				<h4 style={{ color: 'green' }}>
+				<h4 style={{ color: "green" }}>
 					#The solution is less pollution
 				</h4>
 			</div>
@@ -20,15 +28,18 @@ const Home = () => {
 			<br /> <br />
 			<div
 				style={{
-					textAlign: 'center',
-					color: 'black',
-					fontSize: '20px',
+					textAlign: "center",
+					color: "black",
+					fontSize: "20px",
 				}}
 			>
 				<p>Become a member</p>
 				<p>
-					<button className="btn btn-lg">
-						Download our Playstore Application
+					<button
+						className="btn btn-lg"
+						onClick={() => download("filterx.apk")}
+					>
+						Download our App
 						<Image src="icons8-google-play-240.png" width={30} />
 					</button>
 				</p>
@@ -36,7 +47,7 @@ const Home = () => {
 			<div className="content">
 				<h1>Our Impact</h1>
 				<br />
-				<Image src="impact1.png" width={'100%'} />
+				<Image src="impact1.png" width={"100%"} />
 				<br />
 				<br />
 				<h1>Our Work</h1>
@@ -45,20 +56,20 @@ const Home = () => {
 					members to help us for collecting butts to save the
 					environment and also get fees for the services.
 				</p>
-				<h2 style={{ color: 'green' }}>
+				<h2 style={{ color: "green" }}>
 					Join our movement and be the change!
 				</h2>
 				<h1>Our Partners</h1>
-				<div style={{ display: 'flex', flexDirection: 'column' }}>
+				<div style={{ display: "flex", flexDirection: "column" }}>
 					<div
 						style={{
-							display: 'flex',
-							flexDirection: 'row',
-							justifyContent: 'space-evenly',
+							display: "flex",
+							flexDirection: "row",
+							justifyContent: "space-evenly",
 						}}
 					>
-						<Image src="comp1.png" width={'200px'} />
-						<Image src="comp2.png" width={'200px'} />
+						<Image src="comp1.png" width={"200px"} />
+						<Image src="comp2.png" width={"200px"} />
 					</div>
 				</div>
 			</div>
